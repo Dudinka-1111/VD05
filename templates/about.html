@@ -1,0 +1,59 @@
+{% extends 'base.html'%}
+
+{% block title %}
+Фильмы
+{% endblock %}
+
+{% block content %}
+
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card {
+            height: 100%;
+        }
+    </style>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Лучшие экранизации "Алиса в стране чудес"</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm h-100">
+                    <img src="../static/image/Алиса 1951.jpg" class="card-img-top" alt="Алиса в стране чудес (1951)">
+                    <div class="card-body">
+                        <h5 class="card-title">Алиса в стране чудес (1951)</h5>
+                        <p class="card-text">
+                            Классический анимационный фильм студии Disney, который остаётся любимым для многих поколений зрителей.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm h-100">
+                    <img src="../static/image/Алиса 2010.jpg" class="card-img-top" alt="Алиса в стране чудес (2010)">
+                    <div class="card-body">
+                        <h5 class="card-title">Алиса в стране чудес (2010)</h5>
+                        <p class="card-text">
+                            Современная интерпретация от режиссёра Тима Бёртона с участием Джонни Деппа и Мии Васиковски.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm h-100">
+                    <img src="../static/image/Алиса 1933.jpeg" class="card-img-top" alt="Алиса в стране чудес (1933)">
+                    <div class="card-body">
+                        <h5 class="card-title">Алиса в стране чудес (1933)</h5>
+                        <p class="card-text">
+                            Чёрно-белый фильм, который стал одной из первых экранизаций знаменитой книги Льюиса Кэрролла.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

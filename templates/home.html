@@ -1,0 +1,49 @@
+{% extends 'base.html'%}
+
+{% block title %}
+Герои
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+        <h1 class="text-center mb-4">Герои "Алиса в стране чудес"</h1>
+
+        <!-- Секция: Карточки -->
+        <section class="mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="../static/image/Белый кролик.jpg" class="card-img-top" alt="..." style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Белый Кролик</h5>
+                            <p class="card-text">«Ах, боже мой, боже мой! Как я опаздываю!»</p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="../static/image/Болванщик.png" class="card-img-top" alt="..." style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Болванщик</h5>
+                            <p class="card-text">...«не в своём уме»</p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="../static/image/Червонная королева.jpg" class="card-img-top" alt="..." style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Червонная Королева</h5>
+                            <p class="card-text"> «Голову с плеч!»</p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock %}
+
